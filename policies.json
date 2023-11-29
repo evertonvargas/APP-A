@@ -1,0 +1,14 @@
+[
+    {
+      "name": "constructor-policie",
+      "statements": [
+        {
+          "actions": ["get"],
+          "effect": "allow",
+          "resources": [
+            "vrn:squadgrow.service-example:{{region}}:{{account}}:{{workspace}}:/_v/routeprivateapp"
+          ]
+        }
+      ]
+    }
+  ]

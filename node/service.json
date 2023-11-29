@@ -6,26 +6,18 @@
   "maxReplicas": 4,
   "workers": 1,
   "routes": {
-    "status": {
-      "path": "/_v/status/:code",
-      "public": true
-    },
     "hello": {
       "path": "/_v/hello",
       "public": true
     },
-    "routeprivateapp": {
-      "path": "/_v/routeprivateapp",
-      "public": false
-    },
-    "testPolicieService": {
-      "path": "/_v/test-policies-service-route",
+    "info": {
+      "path": "/_v/info",
       "public": false,
       "policies": [
         {
           "effect": "allow",
           "actions": ["get"],
-          "principals": ["vrn:apps:*:*:*:app/squadgrow.service-everton@*"]
+          "principals": ["vrn:apps:*:*:*:app/squadgrow.app-b@*"]
         }
       ]
     }

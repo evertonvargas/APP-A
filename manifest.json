@@ -1,9 +1,9 @@
 {
   "vendor": "squadgrow",
-  "name": "service-example",
+  "name": "app-a",
   "version": "0.0.1",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "title": "APP A",
+  "description": "APPA - Controla a permissão da rota",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
@@ -16,13 +16,6 @@
   },
   "credentialType": "absolute",
   "policies": [
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "httpstat.us",
-        "path": "*"
-      }
-    },
     {
       "name": "colossus-fire-event"
     },
